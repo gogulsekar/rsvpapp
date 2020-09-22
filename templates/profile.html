@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<title>RSVP App!</title>
+<title>RSVP App - updated!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
  <link rel="icon" href="{{ LOGO }}" type="image/png" sizes="16x16">
@@ -18,11 +18,11 @@
 <form action="/new" method='POST'>
 <div  class="form-group">
       <label for="name">Name:</label>
-      <input  type="text" name="name"  id="name" placeholder="Enter your name" >
+      <input  type="text" name="name"  id="name" placeholder="Enter the name" >
     </div>
     <div  class="form-group">
       <label for="email">Email:</label>
-      <input  type="text" name="email"  id="email" placeholder="Enter your email">
+      <input  type="text" name="email"  id="email" placeholder="Enter the email">
     </div>
     <button type="Submit" onclick="alert('RSVP Succeeded!')" align="center" name="submit" class="btn btn-danger">Submit</button>
 </form>
